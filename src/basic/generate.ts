@@ -9,7 +9,6 @@ function big(): string {
   return nanoid(size);
 }
 
-// class name generator
 function cng(blockName: string) {
   const ELEMENT_DELIMITER = "__";
   const MODIFIER_DELIMITER = "--";
