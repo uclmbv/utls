@@ -26,12 +26,7 @@ export default defineConfig({
       fileName: "utls",
     },
     rollupOptions: {
-      external: ["nanoid", "html-janitor"],
       output: {
-        globals: {
-          nanoid: "nanoid",
-          "html-janitor": "HTMLJanitor",
-        },
         dir: "./dist",
       },
       input: "src/index.ts",
