@@ -30,6 +30,10 @@
     "release:local": "semantic-release --no-ci",
     "commit": "cz && commitlint --edit --verbose"
   },
+  "dependencies": {
+    "html-janitor": "^2.0.4",
+    "nanoid": "^5.0.7"
+  },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.2.2",
     "@semantic-release/changelog": "^6.0.3",
@@ -40,8 +44,6 @@
     "conventional-changelog-conventionalcommits": "^8.0.0",
     "cz-conventional-changelog": "^3.3.0",
     "dotenv": "^16.4.5",
-    "html-janitor": "^2.0.4",
-    "nanoid": "^5.0.7",
     "semantic-release": "^24.0.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.3",
