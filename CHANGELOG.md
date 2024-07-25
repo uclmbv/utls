@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.3](https://github.com/uclmbv/utls/compare/v1.0.2...v1.0.3) (2024-07-25)
+
+### Refactor
+
+* update package.json ([1e32bb3](https://github.com/uclmbv/utls/commit/1e32bb32e101a38068d732941de1b75580d3508d))
+
 ## [1.0.2](https://github.com/uclmbv/utls/compare/v1.0.1...v1.0.2) (2024-07-25)
 
 ### Performance
